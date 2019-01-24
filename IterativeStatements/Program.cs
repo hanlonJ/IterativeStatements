@@ -13,7 +13,7 @@ namespace IterativeStatements
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter an Integer value between 1 and 100 to execute an iterative statement:");
+            Console.Write("Enter an Integer value between 1 and 100 to execute an iterative statement: ");
             /* use the try catch block to validate user input
                if the user provides bad input, the catch block
                will display a message and recommend proper input
@@ -24,7 +24,7 @@ namespace IterativeStatements
                 
                 int value_of_input = int.Parse(input);
 
-                if ((value_of_input > 0) && (value_of_input <= 1004))
+                if ((value_of_input > 0) && (value_of_input <= 100))
                 {
                     Console.WriteLine("Executing a Do While Loop!");
                     Console.WriteLine("The Do While Loop will iterate " + value_of_input.ToString() + " times.");
